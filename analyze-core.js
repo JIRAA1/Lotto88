@@ -8,8 +8,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const HISTORY_PATH = path.join(__dirname, "data", "history.json");
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
+const HISTORY_PATH = path.join(DATA_DIR, "history.json");
 
 // ---------- Utils ----------
 const pad2 = (n) => n.toString().padStart(2, "0");

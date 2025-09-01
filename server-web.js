@@ -71,6 +71,41 @@ app.get("/api/backtest", (req, res) => {
   }
 });
 
+// --- Admin endpoints for Render Cron ---
+import { execFile } from "child_process";
+
+function authOK(req) {
+  const hdr = req.get("authorization") || "";
+  const bearer = hdr.startsWith("Bearer ") ? hdr.slice(7) : null;
+  const token = bearer || req.query.key; // เผื่อเรียกแบบ ?key=...
+  return token && process.env.FETCH_KEY && token === process.env.FETCH_KEY;
+}
+
+function runNodeScript(args, cb) {
+  execFile(process.execPath, args, { env: process.env }, (err, stdout, stderr) => {
+    cb(err, (stdout || "") + (stderr || ""));
+  });
+}
+
+// ดึงงวดล่าสุด
+app.post("/api/admin/fetch", (req, res) => {
+  if (!authOK(req)) return res.status(401).json({ ok: false, error: "unauthorized" });
+  runNodeScript(["fetch-lotto.js", "--latest"], (err, out) => {
+    if (err) return res.status(500).json({ ok: false, error: err.message, out });
+    res.json({ ok: true, out });
+  });
+});
+
+// (ออปชัน) backfill ครั้งแรก
+app.post("/api/admin/backfill", (req, res) => {
+  if (!authOK(req)) return res.status(401).json({ ok: false, error: "unauthorized" });
+  runNodeScript(["fetch-lotto.js", "--backfill=all"], (err, out) => {
+    if (err) return res.status(500).json({ ok: false, error: err.message, out });
+    res.json({ ok: true, out });
+  });
+});
+
+
 const PORT = process.env.PORT || 5173;
 app.listen(PORT, () => {
   console.log(`✅ Web UI ready: http://localhost:${PORT}`);
