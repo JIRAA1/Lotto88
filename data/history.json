@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "31072566",
+    "dateTh": "31 กรกฎาคม 2566",
+    "last2": "11",
+    "endpoint": "https://news.sanook.com/lotto/check/31072566",
+    "fetchedAt": "2025-09-01T16:38:46.850Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/31072566"
+  },
+  {
+    "id": "30122566",
+    "dateTh": "30 ธันวาคม 2566",
+    "last2": "89",
+    "endpoint": "https://news.sanook.com/lotto/check/30122566",
+    "fetchedAt": "2025-09-01T16:38:43.860Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122566"
+  },
+  {
+    "id": "30122565",
+    "dateTh": "30 ธันวาคม 2565",
+    "last2": "58",
+    "endpoint": "https://news.sanook.com/lotto/check/30122565",
+    "fetchedAt": "2025-09-01T16:38:50.959Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122565"
+  },
+  {
+    "id": "30122564",
+    "dateTh": "30 ธันวาคม 2564",
+    "last2": "36",
+    "endpoint": "https://news.sanook.com/lotto/check/30122564",
+    "fetchedAt": "2025-09-01T16:38:58.003Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122564"
+  },
+  {
+    "id": "30122563",
+    "dateTh": "30 ธันวาคม 2563",
+    "last2": "19",
+    "endpoint": "https://news.sanook.com/lotto/check/30122563",
+    "fetchedAt": "2025-09-01T16:39:05.665Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122563"
+  },
+  {
+    "id": "30122562",
+    "dateTh": "30 ธันวาคม 2562",
+    "last2": "81",
+    "endpoint": "https://news.sanook.com/lotto/check/30122562",
+    "fetchedAt": "2025-09-01T16:39:13.581Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122562"
+  },
+  {
+    "id": "30122561",
+    "dateTh": "30 ธันวาคม 2561",
+    "last2": "02",
+    "endpoint": "https://news.sanook.com/lotto/check/30122561",
+    "fetchedAt": "2025-09-01T16:39:22.330Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122561"
+  },
+  {
+    "id": "30122560",
+    "dateTh": "30 ธันวาคม 2560",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/30122560",
+    "fetchedAt": "2025-09-01T16:39:30.919Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122560"
+  },
+  {
+    "id": "30122559",
+    "dateTh": "30 ธันวาคม 2559",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/30122559",
+    "fetchedAt": "2025-09-01T16:39:40.009Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122559"
+  },
+  {
+    "id": "30122558",
+    "dateTh": "30 ธันวาคม 2558",
+    "last2": "02",
+    "endpoint": "https://news.sanook.com/lotto/check/30122558",
+    "fetchedAt": "2025-09-01T16:39:48.852Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122558"
+  },
+  {
+    "id": "30122557",
+    "dateTh": "30 ธันวาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/30122557",
+    "fetchedAt": "2025-09-01T16:39:57.512Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122557"
+  },
+  {
+    "id": "30122556",
+    "dateTh": "30 ธันวาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/30122556",
+    "fetchedAt": "2025-09-01T16:40:06.553Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/30122556"
+  },
+  {
+    "id": "17122558",
+    "dateTh": "17 ธันวาคม 2558",
+    "last2": "08",
+    "endpoint": "https://news.sanook.com/lotto/check/17122558",
+    "fetchedAt": "2025-09-01T16:39:49.185Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17122558"
+  },
+  {
+    "id": "17022565",
+    "dateTh": "17 กุมภาพันธ์ 2565",
+    "last2": "57",
+    "endpoint": "https://news.sanook.com/lotto/check/17022565",
+    "fetchedAt": "2025-09-01T16:38:57.240Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17022565"
+  },
+  {
+    "id": "17012568",
+    "dateTh": "17 มกราคม 2568",
+    "last2": "23",
+    "endpoint": "https://news.sanook.com/lotto/check/17012568",
+    "fetchedAt": "2025-09-01T16:38:37.822Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012568"
+  },
+  {
+    "id": "17012567",
+    "dateTh": "17 มกราคม 2567",
+    "last2": "61",
+    "endpoint": "https://news.sanook.com/lotto/check/17012567",
+    "fetchedAt": "2025-09-01T16:38:43.652Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012567"
+  },
+  {
+    "id": "17012566",
+    "dateTh": "17 มกราคม 2566",
+    "last2": "47",
+    "endpoint": "https://news.sanook.com/lotto/check/17012566",
+    "fetchedAt": "2025-09-01T16:38:50.683Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012566"
+  },
+  {
+    "id": "17012565",
+    "dateTh": "17 มกราคม 2565",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/17012565",
+    "fetchedAt": "2025-09-01T16:38:57.703Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012565"
+  },
+  {
+    "id": "17012564",
+    "dateTh": "17 มกราคม 2564",
+    "last2": "15",
+    "endpoint": "https://news.sanook.com/lotto/check/17012564",
+    "fetchedAt": "2025-09-01T16:39:05.375Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012564"
+  },
+  {
+    "id": "17012563",
+    "dateTh": "17 มกราคม 2563",
+    "last2": "68",
+    "endpoint": "https://news.sanook.com/lotto/check/17012563",
+    "fetchedAt": "2025-09-01T16:39:13.253Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012563"
+  },
+  {
+    "id": "17012562",
+    "dateTh": "17 มกราคม 2562",
+    "last2": "65",
+    "endpoint": "https://news.sanook.com/lotto/check/17012562",
+    "fetchedAt": "2025-09-01T16:39:21.993Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012562"
+  },
+  {
+    "id": "17012561",
+    "dateTh": "17 มกราคม 2561",
+    "last2": "50",
+    "endpoint": "https://news.sanook.com/lotto/check/17012561",
+    "fetchedAt": "2025-09-01T16:39:30.569Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012561"
+  },
+  {
+    "id": "17012560",
+    "dateTh": "17 มกราคม 2560",
+    "last2": "25",
+    "endpoint": "https://news.sanook.com/lotto/check/17012560",
+    "fetchedAt": "2025-09-01T16:39:39.669Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012560"
+  },
+  {
+    "id": "17012559",
+    "dateTh": "17 มกราคม 2559",
+    "last2": "50",
+    "endpoint": "https://news.sanook.com/lotto/check/17012559",
+    "fetchedAt": "2025-09-01T16:39:48.503Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/17012559"
+  },
+  {
+    "id": "16122567",
+    "dateTh": "16 ธันวาคม 2567",
+    "last2": "21",
+    "endpoint": "https://news.sanook.com/lotto/check/16122567",
+    "fetchedAt": "2025-09-01T16:38:38.414Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122567"
+  },
+  {
+    "id": "16122566",
+    "dateTh": "16 ธันวาคม 2566",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/16122566",
+    "fetchedAt": "2025-09-01T16:38:44.239Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122566"
+  },
+  {
+    "id": "16122565",
+    "dateTh": "16 ธันวาคม 2565",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/16122565",
+    "fetchedAt": "2025-09-01T16:38:51.268Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122565"
+  },
+  {
+    "id": "16122564",
+    "dateTh": "16 ธันวาคม 2564",
+    "last2": "83",
+    "endpoint": "https://news.sanook.com/lotto/check/16122564",
+    "fetchedAt": "2025-09-01T16:38:58.304Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122564"
+  },
+  {
+    "id": "16122563",
+    "dateTh": "16 ธันวาคม 2563",
+    "last2": "70",
+    "endpoint": "https://news.sanook.com/lotto/check/16122563",
+    "fetchedAt": "2025-09-01T16:39:05.990Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122563"
+  },
+  {
+    "id": "16122562",
+    "dateTh": "16 ธันวาคม 2562",
+    "last2": "97",
+    "endpoint": "https://news.sanook.com/lotto/check/16122562",
+    "fetchedAt": "2025-09-01T16:39:13.945Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122562"
+  },
+  {
+    "id": "16122561",
+    "dateTh": "16 ธันวาคม 2561",
+    "last2": "62",
+    "endpoint": "https://news.sanook.com/lotto/check/16122561",
+    "fetchedAt": "2025-09-01T16:39:22.631Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122561"
+  },
+  {
+    "id": "16122560",
+    "dateTh": "16 ธันวาคม 2560",
+    "last2": "89",
+    "endpoint": "https://news.sanook.com/lotto/check/16122560",
+    "fetchedAt": "2025-09-01T16:39:31.358Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122560"
+  },
+  {
+    "id": "16122559",
+    "dateTh": "16 ธันวาคม 2559",
+    "last2": "35",
+    "endpoint": "https://news.sanook.com/lotto/check/16122559",
+    "fetchedAt": "2025-09-01T16:39:40.377Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122559"
+  },
+  {
+    "id": "16122557",
+    "dateTh": "16 ธันวาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16122557",
+    "fetchedAt": "2025-09-01T16:39:57.840Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122557"
+  },
+  {
+    "id": "16122556",
+    "dateTh": "16 ธันวาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16122556",
+    "fetchedAt": "2025-09-01T16:40:06.857Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16122556"
+  },
+  {
+    "id": "16112567",
+    "dateTh": "16 พฤศจิกายน 2567",
+    "last2": "38",
+    "endpoint": "https://news.sanook.com/lotto/check/16112567",
+    "fetchedAt": "2025-09-01T16:38:38.982Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112567"
+  },
+  {
+    "id": "16112566",
+    "dateTh": "16 พฤศจิกายน 2566",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/16112566",
+    "fetchedAt": "2025-09-01T16:38:44.708Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112566"
+  },
+  {
+    "id": "16112565",
+    "dateTh": "16 พฤศจิกายน 2565",
+    "last2": "64",
+    "endpoint": "https://news.sanook.com/lotto/check/16112565",
+    "fetchedAt": "2025-09-01T16:38:51.823Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112565"
+  },
+  {
+    "id": "16112564",
+    "dateTh": "16 พฤศจิกายน 2564",
+    "last2": "57",
+    "endpoint": "https://news.sanook.com/lotto/check/16112564",
+    "fetchedAt": "2025-09-01T16:38:58.873Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112564"
+  },
+  {
+    "id": "16112563",
+    "dateTh": "16 พฤศจิกายน 2563",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/16112563",
+    "fetchedAt": "2025-09-01T16:39:06.741Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112563"
+  },
+  {
+    "id": "16112562",
+    "dateTh": "16 พฤศจิกายน 2562",
+    "last2": "32",
+    "endpoint": "https://news.sanook.com/lotto/check/16112562",
+    "fetchedAt": "2025-09-01T16:39:14.624Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112562"
+  },
+  {
+    "id": "16112561",
+    "dateTh": "16 พฤศจิกายน 2561",
+    "last2": "16",
+    "endpoint": "https://news.sanook.com/lotto/check/16112561",
+    "fetchedAt": "2025-09-01T16:39:23.624Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112561"
+  },
+  {
+    "id": "16112560",
+    "dateTh": "16 พฤศจิกายน 2560",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/16112560",
+    "fetchedAt": "2025-09-01T16:39:32.201Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112560"
+  },
+  {
+    "id": "16112559",
+    "dateTh": "16 พฤศจิกายน 2559",
+    "last2": "44",
+    "endpoint": "https://news.sanook.com/lotto/check/16112559",
+    "fetchedAt": "2025-09-01T16:39:41.193Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112559"
+  },
+  {
+    "id": "16112558",
+    "dateTh": "16 พฤศจิกายน 2558",
+    "last2": "03",
+    "endpoint": "https://news.sanook.com/lotto/check/16112558",
+    "fetchedAt": "2025-09-01T16:39:49.886Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112558"
+  },
+  {
+    "id": "16112557",
+    "dateTh": "16 พฤศจิกายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16112557",
+    "fetchedAt": "2025-09-01T16:39:58.702Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112557"
+  },
+  {
+    "id": "16112556",
+    "dateTh": "16 พฤศจิกายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16112556",
+    "fetchedAt": "2025-09-01T16:40:07.986Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16112556"
+  },
+  {
+    "id": "16102567",
+    "dateTh": "16 ตุลาคม 2567",
+    "last2": "00",
+    "endpoint": "https://news.sanook.com/lotto/check/16102567",
+    "fetchedAt": "2025-09-01T16:38:39.965Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102567"
+  },
+  {
+    "id": "16102566",
+    "dateTh": "16 ตุลาคม 2566",
+    "last2": "44",
+    "endpoint": "https://news.sanook.com/lotto/check/16102566",
+    "fetchedAt": "2025-09-01T16:38:45.340Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102566"
+  },
+  {
+    "id": "16102565",
+    "dateTh": "16 ตุลาคม 2565",
+    "last2": "15",
+    "endpoint": "https://news.sanook.com/lotto/check/16102565",
+    "fetchedAt": "2025-09-01T16:38:52.371Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102565"
+  },
+  {
+    "id": "16102564",
+    "dateTh": "16 ตุลาคม 2564",
+    "last2": "38",
+    "endpoint": "https://news.sanook.com/lotto/check/16102564",
+    "fetchedAt": "2025-09-01T16:38:59.466Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102564"
+  },
+  {
+    "id": "16102563",
+    "dateTh": "16 ตุลาคม 2563",
+    "last2": "38",
+    "endpoint": "https://news.sanook.com/lotto/check/16102563",
+    "fetchedAt": "2025-09-01T16:39:07.411Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102563"
+  },
+  {
+    "id": "16102562",
+    "dateTh": "16 ตุลาคม 2562",
+    "last2": "15",
+    "endpoint": "https://news.sanook.com/lotto/check/16102562",
+    "fetchedAt": "2025-09-01T16:39:15.341Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102562"
+  },
+  {
+    "id": "16102561",
+    "dateTh": "16 ตุลาคม 2561",
+    "last2": "93",
+    "endpoint": "https://news.sanook.com/lotto/check/16102561",
+    "fetchedAt": "2025-09-01T16:39:24.323Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102561"
+  },
+  {
+    "id": "16102560",
+    "dateTh": "16 ตุลาคม 2560",
+    "last2": "86",
+    "endpoint": "https://news.sanook.com/lotto/check/16102560",
+    "fetchedAt": "2025-09-01T16:39:32.935Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102560"
+  },
+  {
+    "id": "16102559",
+    "dateTh": "16 ตุลาคม 2559",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/16102559",
+    "fetchedAt": "2025-09-01T16:39:41.878Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102559"
+  },
+  {
+    "id": "16102558",
+    "dateTh": "16 ตุลาคม 2558",
+    "last2": "62",
+    "endpoint": "https://news.sanook.com/lotto/check/16102558",
+    "fetchedAt": "2025-09-01T16:39:50.589Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102558"
+  },
+  {
+    "id": "16102557",
+    "dateTh": "16 ตุลาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16102557",
+    "fetchedAt": "2025-09-01T16:39:59.386Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102557"
+  },
+  {
+    "id": "16102556",
+    "dateTh": "16 ตุลาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16102556",
+    "fetchedAt": "2025-09-01T16:40:08.756Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16102556"
+  },
+  {
+    "id": "16092567",
+    "dateTh": "16 กันยายน 2567",
+    "last2": "37",
+    "endpoint": "https://news.sanook.com/lotto/check/16092567",
+    "fetchedAt": "2025-09-01T16:38:40.384Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092567"
+  },
+  {
+    "id": "16092566",
+    "dateTh": "16 กันยายน 2566",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/16092566",
+    "fetchedAt": "2025-09-01T16:38:45.990Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092566"
+  },
+  {
+    "id": "16092565",
+    "dateTh": "16 กันยายน 2565",
+    "last2": "75",
+    "endpoint": "https://news.sanook.com/lotto/check/16092565",
+    "fetchedAt": "2025-09-01T16:38:52.947Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092565"
+  },
+  {
+    "id": "16092564",
+    "dateTh": "16 กันยายน 2564",
+    "last2": "90",
+    "endpoint": "https://news.sanook.com/lotto/check/16092564",
+    "fetchedAt": "2025-09-01T16:39:00.008Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092564"
+  },
+  {
+    "id": "16092563",
+    "dateTh": "16 กันยายน 2563",
+    "last2": "57",
+    "endpoint": "https://news.sanook.com/lotto/check/16092563",
+    "fetchedAt": "2025-09-01T16:39:08.132Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092563"
+  },
+  {
+    "id": "16092562",
+    "dateTh": "16 กันยายน 2562",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/16092562",
+    "fetchedAt": "2025-09-01T16:39:16.400Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092562"
+  },
+  {
+    "id": "16092561",
+    "dateTh": "16 กันยายน 2561",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/16092561",
+    "fetchedAt": "2025-09-01T16:39:24.941Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092561"
+  },
+  {
+    "id": "16092560",
+    "dateTh": "16 กันยายน 2560",
+    "last2": "71",
+    "endpoint": "https://news.sanook.com/lotto/check/16092560",
+    "fetchedAt": "2025-09-01T16:39:33.729Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092560"
+  },
+  {
+    "id": "16092559",
+    "dateTh": "16 กันยายน 2559",
+    "last2": "42",
+    "endpoint": "https://news.sanook.com/lotto/check/16092559",
+    "fetchedAt": "2025-09-01T16:39:42.555Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092559"
+  },
+  {
+    "id": "16092558",
+    "dateTh": "16 กันยายน 2558",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/16092558",
+    "fetchedAt": "2025-09-01T16:39:51.272Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092558"
+  },
+  {
+    "id": "16092557",
+    "dateTh": "16 กันยายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16092557",
+    "fetchedAt": "2025-09-01T16:40:00.547Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092557"
+  },
+  {
+    "id": "16092556",
+    "dateTh": "16 กันยายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16092556",
+    "fetchedAt": "2025-09-01T16:40:09.461Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16092556"
+  },
+  {
+    "id": "16082568",
+    "dateTh": "16 สิงหาคม 2568",
+    "last2": "63",
+    "endpoint": "https://news.sanook.com/lotto/check/16082568",
+    "fetchedAt": "2025-09-01T16:38:33.770Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082568"
+  },
+  {
+    "id": "16082567",
+    "dateTh": "16 สิงหาคม 2567",
+    "last2": "28",
+    "endpoint": "https://news.sanook.com/lotto/check/16082567",
+    "fetchedAt": "2025-09-01T16:38:40.809Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082567"
+  },
+  {
+    "id": "16082566",
+    "dateTh": "16 สิงหาคม 2566",
+    "last2": "67",
+    "endpoint": "https://news.sanook.com/lotto/check/16082566",
+    "fetchedAt": "2025-09-01T16:38:46.575Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082566"
+  },
+  {
+    "id": "16082565",
+    "dateTh": "16 สิงหาคม 2565",
+    "last2": "42",
+    "endpoint": "https://news.sanook.com/lotto/check/16082565",
+    "fetchedAt": "2025-09-01T16:38:53.533Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082565"
+  },
+  {
+    "id": "16082564",
+    "dateTh": "16 สิงหาคม 2564",
+    "last2": "23",
+    "endpoint": "https://news.sanook.com/lotto/check/16082564",
+    "fetchedAt": "2025-09-01T16:39:00.547Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082564"
+  },
+  {
+    "id": "16082563",
+    "dateTh": "16 สิงหาคม 2563",
+    "last2": "88",
+    "endpoint": "https://news.sanook.com/lotto/check/16082563",
+    "fetchedAt": "2025-09-01T16:39:09.163Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082563"
+  },
+  {
+    "id": "16082562",
+    "dateTh": "16 สิงหาคม 2562",
+    "last2": "89",
+    "endpoint": "https://news.sanook.com/lotto/check/16082562",
+    "fetchedAt": "2025-09-01T16:39:17.294Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082562"
+  },
+  {
+    "id": "16082561",
+    "dateTh": "16 สิงหาคม 2561",
+    "last2": "10",
+    "endpoint": "https://news.sanook.com/lotto/check/16082561",
+    "fetchedAt": "2025-09-01T16:39:25.593Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082561"
+  },
+  {
+    "id": "16082560",
+    "dateTh": "16 สิงหาคม 2560",
+    "last2": "37",
+    "endpoint": "https://news.sanook.com/lotto/check/16082560",
+    "fetchedAt": "2025-09-01T16:39:34.454Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082560"
+  },
+  {
+    "id": "16082559",
+    "dateTh": "16 สิงหาคม 2559",
+    "last2": "33",
+    "endpoint": "https://news.sanook.com/lotto/check/16082559",
+    "fetchedAt": "2025-09-01T16:39:43.279Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082559"
+  },
+  {
+    "id": "16082558",
+    "dateTh": "16 สิงหาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16082558",
+    "fetchedAt": "2025-09-01T16:39:51.919Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082558"
+  },
+  {
+    "id": "16082557",
+    "dateTh": "16 สิงหาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16082557",
+    "fetchedAt": "2025-09-01T16:40:01.220Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082557"
+  },
+  {
+    "id": "16082556",
+    "dateTh": "16 สิงหาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16082556",
+    "fetchedAt": "2025-09-01T16:40:10.178Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16082556"
+  },
+  {
+    "id": "16072568",
+    "dateTh": "16 กรกฎาคม 2568",
+    "last2": "26",
+    "endpoint": "https://news.sanook.com/lotto/check/16072568",
+    "fetchedAt": "2025-09-01T16:38:34.272Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072568"
+  },
+  {
+    "id": "16072567",
+    "dateTh": "16 กรกฎาคม 2567",
+    "last2": "21",
+    "endpoint": "https://news.sanook.com/lotto/check/16072567",
+    "fetchedAt": "2025-09-01T16:38:41.230Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072567"
+  },
+  {
+    "id": "16072566",
+    "dateTh": "16 กรกฎาคม 2566",
+    "last2": "62",
+    "endpoint": "https://news.sanook.com/lotto/check/16072566",
+    "fetchedAt": "2025-09-01T16:38:47.041Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072566"
+  },
+  {
+    "id": "16072565",
+    "dateTh": "16 กรกฎาคม 2565",
+    "last2": "53",
+    "endpoint": "https://news.sanook.com/lotto/check/16072565",
+    "fetchedAt": "2025-09-01T16:38:54.108Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072565"
+  },
+  {
+    "id": "16072564",
+    "dateTh": "16 กรกฎาคม 2564",
+    "last2": "70",
+    "endpoint": "https://news.sanook.com/lotto/check/16072564",
+    "fetchedAt": "2025-09-01T16:39:01.109Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072564"
+  },
+  {
+    "id": "16072563",
+    "dateTh": "16 กรกฎาคม 2563",
+    "last2": "53",
+    "endpoint": "https://news.sanook.com/lotto/check/16072563",
+    "fetchedAt": "2025-09-01T16:39:09.873Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072563"
+  },
+  {
+    "id": "16072561",
+    "dateTh": "16 กรกฎาคม 2561",
+    "last2": "27",
+    "endpoint": "https://news.sanook.com/lotto/check/16072561",
+    "fetchedAt": "2025-09-01T16:39:26.240Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072561"
+  },
+  {
+    "id": "16072560",
+    "dateTh": "16 กรกฎาคม 2560",
+    "last2": "87",
+    "endpoint": "https://news.sanook.com/lotto/check/16072560",
+    "fetchedAt": "2025-09-01T16:39:35.133Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072560"
+  },
+  {
+    "id": "16072559",
+    "dateTh": "16 กรกฎาคม 2559",
+    "last2": "55",
+    "endpoint": "https://news.sanook.com/lotto/check/16072559",
+    "fetchedAt": "2025-09-01T16:39:43.962Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072559"
+  },
+  {
+    "id": "16072558",
+    "dateTh": "16 กรกฎาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16072558",
+    "fetchedAt": "2025-09-01T16:39:53.071Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072558"
+  },
+  {
+    "id": "16072557",
+    "dateTh": "16 กรกฎาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16072557",
+    "fetchedAt": "2025-09-01T16:40:01.910Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072557"
+  },
+  {
+    "id": "16072556",
+    "dateTh": "16 กรกฎาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16072556",
+    "fetchedAt": "2025-09-01T16:40:10.872Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16072556"
+  },
+  {
+    "id": "16062568",
+    "dateTh": "16 มิถุนายน 2568",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/16062568",
+    "fetchedAt": "2025-09-01T16:38:34.833Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062568"
+  },
+  {
+    "id": "16062567",
+    "dateTh": "16 มิถุนายน 2567",
+    "last2": "31",
+    "endpoint": "https://news.sanook.com/lotto/check/16062567",
+    "fetchedAt": "2025-09-01T16:38:41.630Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062567"
+  },
+  {
+    "id": "16062566",
+    "dateTh": "16 มิถุนายน 2566",
+    "last2": "30",
+    "endpoint": "https://news.sanook.com/lotto/check/16062566",
+    "fetchedAt": "2025-09-01T16:38:47.615Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062566"
+  },
+  {
+    "id": "16062565",
+    "dateTh": "16 มิถุนายน 2565",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/16062565",
+    "fetchedAt": "2025-09-01T16:38:54.722Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062565"
+  },
+  {
+    "id": "16062564",
+    "dateTh": "16 มิถุนายน 2564",
+    "last2": "17",
+    "endpoint": "https://news.sanook.com/lotto/check/16062564",
+    "fetchedAt": "2025-09-01T16:39:02.004Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062564"
+  },
+  {
+    "id": "16062563",
+    "dateTh": "16 มิถุนายน 2563",
+    "last2": "64",
+    "endpoint": "https://news.sanook.com/lotto/check/16062563",
+    "fetchedAt": "2025-09-01T16:39:10.594Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062563"
+  },
+  {
+    "id": "16062562",
+    "dateTh": "16 มิถุนายน 2562",
+    "last2": "29",
+    "endpoint": "https://news.sanook.com/lotto/check/16062562",
+    "fetchedAt": "2025-09-01T16:39:18.656Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062562"
+  },
+  {
+    "id": "16062561",
+    "dateTh": "16 มิถุนายน 2561",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/16062561",
+    "fetchedAt": "2025-09-01T16:39:26.854Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062561"
+  },
+  {
+    "id": "16062560",
+    "dateTh": "16 มิถุนายน 2560",
+    "last2": "47",
+    "endpoint": "https://news.sanook.com/lotto/check/16062560",
+    "fetchedAt": "2025-09-01T16:39:35.816Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062560"
+  },
+  {
+    "id": "16062559",
+    "dateTh": "16 มิถุนายน 2559",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/16062559",
+    "fetchedAt": "2025-09-01T16:39:44.637Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062559"
+  },
+  {
+    "id": "16062558",
+    "dateTh": "16 มิถุนายน 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16062558",
+    "fetchedAt": "2025-09-01T16:39:53.776Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062558"
+  },
+  {
+    "id": "16062557",
+    "dateTh": "16 มิถุนายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16062557",
+    "fetchedAt": "2025-09-01T16:40:02.606Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062557"
+  },
+  {
+    "id": "16062556",
+    "dateTh": "16 มิถุนายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16062556",
+    "fetchedAt": "2025-09-01T16:40:11.594Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16062556"
+  },
+  {
+    "id": "16052568",
+    "dateTh": "16 พฤษภาคม 2568",
+    "last2": "87",
+    "endpoint": "https://news.sanook.com/lotto/check/16052568",
+    "fetchedAt": "2025-09-01T16:38:35.443Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052568"
+  },
+  {
+    "id": "16052567",
+    "dateTh": "16 พฤษภาคม 2567",
+    "last2": "60",
+    "endpoint": "https://news.sanook.com/lotto/check/16052567",
+    "fetchedAt": "2025-09-01T16:38:42.018Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052567"
+  },
+  {
+    "id": "16052566",
+    "dateTh": "16 พฤษภาคม 2566",
+    "last2": "99",
+    "endpoint": "https://news.sanook.com/lotto/check/16052566",
+    "fetchedAt": "2025-09-01T16:38:48.127Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052566"
+  },
+  {
+    "id": "16052565",
+    "dateTh": "16 พฤษภาคม 2565",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/16052565",
+    "fetchedAt": "2025-09-01T16:38:55.293Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052565"
+  },
+  {
+    "id": "16052564",
+    "dateTh": "16 พฤษภาคม 2564",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/16052564",
+    "fetchedAt": "2025-09-01T16:39:02.660Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052564"
+  },
+  {
+    "id": "16052563",
+    "dateTh": "16 พฤษภาคม 2563",
+    "last2": "22",
+    "endpoint": "https://news.sanook.com/lotto/check/16052563",
+    "fetchedAt": "2025-09-01T16:39:11.265Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052563"
+  },
+  {
+    "id": "16052562",
+    "dateTh": "16 พฤษภาคม 2562",
+    "last2": "71",
+    "endpoint": "https://news.sanook.com/lotto/check/16052562",
+    "fetchedAt": "2025-09-01T16:39:19.352Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052562"
+  },
+  {
+    "id": "16052561",
+    "dateTh": "16 พฤษภาคม 2561",
+    "last2": "20",
+    "endpoint": "https://news.sanook.com/lotto/check/16052561",
+    "fetchedAt": "2025-09-01T16:39:27.479Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052561"
+  },
+  {
+    "id": "16052560",
+    "dateTh": "16 พฤษภาคม 2560",
+    "last2": "53",
+    "endpoint": "https://news.sanook.com/lotto/check/16052560",
+    "fetchedAt": "2025-09-01T16:39:36.526Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052560"
+  },
+  {
+    "id": "16052559",
+    "dateTh": "16 พฤษภาคม 2559",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/16052559",
+    "fetchedAt": "2025-09-01T16:39:45.767Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052559"
+  },
+  {
+    "id": "16052558",
+    "dateTh": "16 พฤษภาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16052558",
+    "fetchedAt": "2025-09-01T16:39:54.458Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052558"
+  },
+  {
+    "id": "16052557",
+    "dateTh": "16 พฤษภาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16052557",
+    "fetchedAt": "2025-09-01T16:40:03.300Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052557"
+  },
+  {
+    "id": "16052556",
+    "dateTh": "16 พฤษภาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16052556",
+    "fetchedAt": "2025-09-01T16:40:12.321Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16052556"
+  },
+  {
+    "id": "16042568",
+    "dateTh": "16 เมษายน 2568",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/16042568",
+    "fetchedAt": "2025-09-01T16:38:36.207Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042568"
+  },
+  {
+    "id": "16042567",
+    "dateTh": "16 เมษายน 2567",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/16042567",
+    "fetchedAt": "2025-09-01T16:38:42.417Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042567"
+  },
+  {
+    "id": "16042566",
+    "dateTh": "16 เมษายน 2566",
+    "last2": "71",
+    "endpoint": "https://news.sanook.com/lotto/check/16042566",
+    "fetchedAt": "2025-09-01T16:38:48.710Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042566"
+  },
+  {
+    "id": "16042565",
+    "dateTh": "16 เมษายน 2565",
+    "last2": "58",
+    "endpoint": "https://news.sanook.com/lotto/check/16042565",
+    "fetchedAt": "2025-09-01T16:38:56.059Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042565"
+  },
+  {
+    "id": "16042564",
+    "dateTh": "16 เมษายน 2564",
+    "last2": "56",
+    "endpoint": "https://news.sanook.com/lotto/check/16042564",
+    "fetchedAt": "2025-09-01T16:39:03.249Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042564"
+  },
+  {
+    "id": "16042562",
+    "dateTh": "16 เมษายน 2562",
+    "last2": "23",
+    "endpoint": "https://news.sanook.com/lotto/check/16042562",
+    "fetchedAt": "2025-09-01T16:39:20.020Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042562"
+  },
+  {
+    "id": "16042561",
+    "dateTh": "16 เมษายน 2561",
+    "last2": "60",
+    "endpoint": "https://news.sanook.com/lotto/check/16042561",
+    "fetchedAt": "2025-09-01T16:39:28.091Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042561"
+  },
+  {
+    "id": "16042560",
+    "dateTh": "16 เมษายน 2560",
+    "last2": "40",
+    "endpoint": "https://news.sanook.com/lotto/check/16042560",
+    "fetchedAt": "2025-09-01T16:39:37.189Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042560"
+  },
+  {
+    "id": "16042559",
+    "dateTh": "16 เมษายน 2559",
+    "last2": "87",
+    "endpoint": "https://news.sanook.com/lotto/check/16042559",
+    "fetchedAt": "2025-09-01T16:39:46.441Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042559"
+  },
+  {
+    "id": "16042558",
+    "dateTh": "16 เมษายน 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16042558",
+    "fetchedAt": "2025-09-01T16:39:55.131Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042558"
+  },
+  {
+    "id": "16042557",
+    "dateTh": "16 เมษายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16042557",
+    "fetchedAt": "2025-09-01T16:40:03.996Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042557"
+  },
+  {
+    "id": "16042556",
+    "dateTh": "16 เมษายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16042556",
+    "fetchedAt": "2025-09-01T16:40:13.041Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16042556"
+  },
+  {
+    "id": "16032568",
+    "dateTh": "16 มีนาคม 2568",
+    "last2": "32",
+    "endpoint": "https://news.sanook.com/lotto/check/16032568",
+    "fetchedAt": "2025-09-01T16:38:36.794Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032568"
+  },
+  {
+    "id": "16032567",
+    "dateTh": "16 มีนาคม 2567",
+    "last2": "78",
+    "endpoint": "https://news.sanook.com/lotto/check/16032567",
+    "fetchedAt": "2025-09-01T16:38:42.877Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032567"
+  },
+  {
+    "id": "16032566",
+    "dateTh": "16 มีนาคม 2566",
+    "last2": "73",
+    "endpoint": "https://news.sanook.com/lotto/check/16032566",
+    "fetchedAt": "2025-09-01T16:38:49.273Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032566"
+  },
+  {
+    "id": "16032565",
+    "dateTh": "16 มีนาคม 2565",
+    "last2": "03",
+    "endpoint": "https://news.sanook.com/lotto/check/16032565",
+    "fetchedAt": "2025-09-01T16:38:56.639Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032565"
+  },
+  {
+    "id": "16032564",
+    "dateTh": "16 มีนาคม 2564",
+    "last2": "19",
+    "endpoint": "https://news.sanook.com/lotto/check/16032564",
+    "fetchedAt": "2025-09-01T16:39:03.936Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032564"
+  },
+  {
+    "id": "16032563",
+    "dateTh": "16 มีนาคม 2563",
+    "last2": "77",
+    "endpoint": "https://news.sanook.com/lotto/check/16032563",
+    "fetchedAt": "2025-09-01T16:39:11.930Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032563"
+  },
+  {
+    "id": "16032562",
+    "dateTh": "16 มีนาคม 2562",
+    "last2": "64",
+    "endpoint": "https://news.sanook.com/lotto/check/16032562",
+    "fetchedAt": "2025-09-01T16:39:20.685Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032562"
+  },
+  {
+    "id": "16032561",
+    "dateTh": "16 มีนาคม 2561",
+    "last2": "82",
+    "endpoint": "https://news.sanook.com/lotto/check/16032561",
+    "fetchedAt": "2025-09-01T16:39:28.728Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032561"
+  },
+  {
+    "id": "16032560",
+    "dateTh": "16 มีนาคม 2560",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/16032560",
+    "fetchedAt": "2025-09-01T16:39:38.317Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032560"
+  },
+  {
+    "id": "16032559",
+    "dateTh": "16 มีนาคม 2559",
+    "last2": "32",
+    "endpoint": "https://news.sanook.com/lotto/check/16032559",
+    "fetchedAt": "2025-09-01T16:39:47.107Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032559"
+  },
+  {
+    "id": "16032558",
+    "dateTh": "16 มีนาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16032558",
+    "fetchedAt": "2025-09-01T16:39:55.832Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032558"
+  },
+  {
+    "id": "16032557",
+    "dateTh": "16 มีนาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16032557",
+    "fetchedAt": "2025-09-01T16:40:04.719Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032557"
+  },
+  {
+    "id": "16032556",
+    "dateTh": "16 มีนาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16032556",
+    "fetchedAt": "2025-09-01T16:40:13.809Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16032556"
+  },
+  {
+    "id": "16022568",
+    "dateTh": "16 กุมภาพันธ์ 2568",
+    "last2": "50",
+    "endpoint": "https://news.sanook.com/lotto/check/16022568",
+    "fetchedAt": "2025-09-01T16:38:37.329Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022568"
+  },
+  {
+    "id": "16022567",
+    "dateTh": "16 กุมภาพันธ์ 2567",
+    "last2": "43",
+    "endpoint": "https://news.sanook.com/lotto/check/16022567",
+    "fetchedAt": "2025-09-01T16:38:43.270Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022567"
+  },
+  {
+    "id": "16022566",
+    "dateTh": "16 กุมภาพันธ์ 2566",
+    "last2": "80",
+    "endpoint": "https://news.sanook.com/lotto/check/16022566",
+    "fetchedAt": "2025-09-01T16:38:50.126Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022566"
+  },
+  {
+    "id": "16022564",
+    "dateTh": "16 กุมภาพันธ์ 2564",
+    "last2": "39",
+    "endpoint": "https://news.sanook.com/lotto/check/16022564",
+    "fetchedAt": "2025-09-01T16:39:04.550Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022564"
+  },
+  {
+    "id": "16022563",
+    "dateTh": "16 กุมภาพันธ์ 2563",
+    "last2": "94",
+    "endpoint": "https://news.sanook.com/lotto/check/16022563",
+    "fetchedAt": "2025-09-01T16:39:12.600Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022563"
+  },
+  {
+    "id": "16022562",
+    "dateTh": "16 กุมภาพันธ์ 2562",
+    "last2": "56",
+    "endpoint": "https://news.sanook.com/lotto/check/16022562",
+    "fetchedAt": "2025-09-01T16:39:21.315Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022562"
+  },
+  {
+    "id": "16022561",
+    "dateTh": "16 กุมภาพันธ์ 2561",
+    "last2": "39",
+    "endpoint": "https://news.sanook.com/lotto/check/16022561",
+    "fetchedAt": "2025-09-01T16:39:29.393Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022561"
+  },
+  {
+    "id": "16022560",
+    "dateTh": "16 กุมภาพันธ์ 2560",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/16022560",
+    "fetchedAt": "2025-09-01T16:39:38.996Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022560"
+  },
+  {
+    "id": "16022559",
+    "dateTh": "16 กุมภาพันธ์ 2559",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/16022559",
+    "fetchedAt": "2025-09-01T16:39:47.766Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022559"
+  },
+  {
+    "id": "16022558",
+    "dateTh": "16 กุมภาพันธ์ 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16022558",
+    "fetchedAt": "2025-09-01T16:39:56.500Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022558"
+  },
+  {
+    "id": "16022557",
+    "dateTh": "16 กุมภาพันธ์ 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16022557",
+    "fetchedAt": "2025-09-01T16:40:05.431Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022557"
+  },
+  {
+    "id": "16022556",
+    "dateTh": "16 กุมภาพันธ์ 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16022556",
+    "fetchedAt": "2025-09-01T16:40:14.510Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16022556"
+  },
+  {
+    "id": "16012558",
+    "dateTh": "16 มกราคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16012558",
+    "fetchedAt": "2025-09-01T16:39:57.172Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16012558"
+  },
+  {
+    "id": "16012557",
+    "dateTh": "16 มกราคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/16012557",
+    "fetchedAt": "2025-09-01T16:40:06.213Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/16012557"
+  },
+  {
+    "id": "15072562",
+    "dateTh": "15 กรกฎาคม 2562",
+    "last2": "88",
+    "endpoint": "https://news.sanook.com/lotto/check/15072562",
+    "fetchedAt": "2025-09-01T16:39:17.988Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/15072562"
+  },
+  {
+    "id": "02062558",
+    "dateTh": "2 มิถุนายน 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/02062558",
+    "fetchedAt": "2025-09-01T16:39:54.113Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02062558"
+  },
+  {
+    "id": "02052568",
+    "dateTh": "2 พฤษภาคม 2568",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/02052568",
+    "fetchedAt": "2025-09-01T16:38:35.743Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052568"
+  },
+  {
+    "id": "02052567",
+    "dateTh": "2 พฤษภาคม 2567",
+    "last2": "17",
+    "endpoint": "https://news.sanook.com/lotto/check/02052567",
+    "fetchedAt": "2025-09-01T16:38:42.218Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052567"
+  },
+  {
+    "id": "02052566",
+    "dateTh": "2 พฤษภาคม 2566",
+    "last2": "65",
+    "endpoint": "https://news.sanook.com/lotto/check/02052566",
+    "fetchedAt": "2025-09-01T16:38:48.414Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052566"
+  },
+  {
+    "id": "02052565",
+    "dateTh": "2 พฤษภาคม 2565",
+    "last2": "09",
+    "endpoint": "https://news.sanook.com/lotto/check/02052565",
+    "fetchedAt": "2025-09-01T16:38:55.583Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052565"
+  },
+  {
+    "id": "02052564",
+    "dateTh": "2 พฤษภาคม 2564",
+    "last2": "18",
+    "endpoint": "https://news.sanook.com/lotto/check/02052564",
+    "fetchedAt": "2025-09-01T16:39:02.959Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052564"
+  },
+  {
+    "id": "02052562",
+    "dateTh": "2 พฤษภาคม 2562",
+    "last2": "25",
+    "endpoint": "https://news.sanook.com/lotto/check/02052562",
+    "fetchedAt": "2025-09-01T16:39:19.670Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052562"
+  },
+  {
+    "id": "02052561",
+    "dateTh": "2 พฤษภาคม 2561",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/02052561",
+    "fetchedAt": "2025-09-01T16:39:27.786Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052561"
+  },
+  {
+    "id": "02052560",
+    "dateTh": "2 พฤษภาคม 2560",
+    "last2": "35",
+    "endpoint": "https://news.sanook.com/lotto/check/02052560",
+    "fetchedAt": "2025-09-01T16:39:36.867Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052560"
+  },
+  {
+    "id": "02052559",
+    "dateTh": "2 พฤษภาคม 2559",
+    "last2": "02",
+    "endpoint": "https://news.sanook.com/lotto/check/02052559",
+    "fetchedAt": "2025-09-01T16:39:46.088Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052559"
+  },
+  {
+    "id": "02052558",
+    "dateTh": "2 พฤษภาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/02052558",
+    "fetchedAt": "2025-09-01T16:39:54.779Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052558"
+  },
+  {
+    "id": "02052557",
+    "dateTh": "2 พฤษภาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/02052557",
+    "fetchedAt": "2025-09-01T16:40:03.634Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052557"
+  },
+  {
+    "id": "02052556",
+    "dateTh": "2 พฤษภาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/02052556",
+    "fetchedAt": "2025-09-01T16:40:12.702Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02052556"
+  },
+  {
+    "id": "02032561",
+    "dateTh": "2 มีนาคม 2561",
+    "last2": "29",
+    "endpoint": "https://news.sanook.com/lotto/check/02032561",
+    "fetchedAt": "2025-09-01T16:39:29.032Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02032561"
+  },
+  {
+    "id": "02012568",
+    "dateTh": "2 มกราคม 2568",
+    "last2": "51",
+    "endpoint": "https://news.sanook.com/lotto/check/02012568",
+    "fetchedAt": "2025-09-01T16:38:38.095Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/02012568"
+  },
+  {
+    "id": "01122567",
+    "dateTh": "1 ธันวาคม 2567",
+    "last2": "61",
+    "endpoint": "https://news.sanook.com/lotto/check/01122567",
+    "fetchedAt": "2025-09-01T16:38:38.694Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122567"
+  },
+  {
+    "id": "01122566",
+    "dateTh": "1 ธันวาคม 2566",
+    "last2": "91",
+    "endpoint": "https://news.sanook.com/lotto/check/01122566",
+    "fetchedAt": "2025-09-01T16:38:44.425Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122566"
+  },
+  {
+    "id": "01122565",
+    "dateTh": "1 ธันวาคม 2565",
+    "last2": "08",
+    "endpoint": "https://news.sanook.com/lotto/check/01122565",
+    "fetchedAt": "2025-09-01T16:38:51.546Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122565"
+  },
+  {
+    "id": "01122564",
+    "dateTh": "1 ธันวาคม 2564",
+    "last2": "82",
+    "endpoint": "https://news.sanook.com/lotto/check/01122564",
+    "fetchedAt": "2025-09-01T16:38:58.593Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122564"
+  },
+  {
+    "id": "01122563",
+    "dateTh": "1 ธันวาคม 2563",
+    "last2": "84",
+    "endpoint": "https://news.sanook.com/lotto/check/01122563",
+    "fetchedAt": "2025-09-01T16:39:06.343Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122563"
+  },
+  {
+    "id": "01122562",
+    "dateTh": "1 ธันวาคม 2562",
+    "last2": "81",
+    "endpoint": "https://news.sanook.com/lotto/check/01122562",
+    "fetchedAt": "2025-09-01T16:39:14.290Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122562"
+  },
+  {
+    "id": "01122561",
+    "dateTh": "1 ธันวาคม 2561",
+    "last2": "67",
+    "endpoint": "https://news.sanook.com/lotto/check/01122561",
+    "fetchedAt": "2025-09-01T16:39:22.957Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122561"
+  },
+  {
+    "id": "01122560",
+    "dateTh": "1 ธันวาคม 2560",
+    "last2": "33",
+    "endpoint": "https://news.sanook.com/lotto/check/01122560",
+    "fetchedAt": "2025-09-01T16:39:31.760Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122560"
+  },
+  {
+    "id": "01122559",
+    "dateTh": "1 ธันวาคม 2559",
+    "last2": "77",
+    "endpoint": "https://news.sanook.com/lotto/check/01122559",
+    "fetchedAt": "2025-09-01T16:39:40.847Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122559"
+  },
+  {
+    "id": "01122558",
+    "dateTh": "1 ธันวาคม 2558",
+    "last2": "78",
+    "endpoint": "https://news.sanook.com/lotto/check/01122558",
+    "fetchedAt": "2025-09-01T16:39:49.523Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122558"
+  },
+  {
+    "id": "01122557",
+    "dateTh": "1 ธันวาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01122557",
+    "fetchedAt": "2025-09-01T16:39:58.360Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122557"
+  },
+  {
+    "id": "01122556",
+    "dateTh": "1 ธันวาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01122556",
+    "fetchedAt": "2025-09-01T16:40:07.208Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01122556"
+  },
+  {
+    "id": "01112567",
+    "dateTh": "1 พฤศจิกายน 2567",
+    "last2": "32",
+    "endpoint": "https://news.sanook.com/lotto/check/01112567",
+    "fetchedAt": "2025-09-01T16:38:39.186Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112567"
+  },
+  {
+    "id": "01112566",
+    "dateTh": "1 พฤศจิกายน 2566",
+    "last2": "63",
+    "endpoint": "https://news.sanook.com/lotto/check/01112566",
+    "fetchedAt": "2025-09-01T16:38:45.018Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112566"
+  },
+  {
+    "id": "01112565",
+    "dateTh": "1 พฤศจิกายน 2565",
+    "last2": "70",
+    "endpoint": "https://news.sanook.com/lotto/check/01112565",
+    "fetchedAt": "2025-09-01T16:38:52.095Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112565"
+  },
+  {
+    "id": "01112564",
+    "dateTh": "1 พฤศจิกายน 2564",
+    "last2": "95",
+    "endpoint": "https://news.sanook.com/lotto/check/01112564",
+    "fetchedAt": "2025-09-01T16:38:59.156Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112564"
+  },
+  {
+    "id": "01112563",
+    "dateTh": "1 พฤศจิกายน 2563",
+    "last2": "40",
+    "endpoint": "https://news.sanook.com/lotto/check/01112563",
+    "fetchedAt": "2025-09-01T16:39:07.079Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112563"
+  },
+  {
+    "id": "01112562",
+    "dateTh": "1 พฤศจิกายน 2562",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/01112562",
+    "fetchedAt": "2025-09-01T16:39:14.965Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112562"
+  },
+  {
+    "id": "01112561",
+    "dateTh": "1 พฤศจิกายน 2561",
+    "last2": "58",
+    "endpoint": "https://news.sanook.com/lotto/check/01112561",
+    "fetchedAt": "2025-09-01T16:39:23.976Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112561"
+  },
+  {
+    "id": "01112560",
+    "dateTh": "1 พฤศจิกายน 2560",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/01112560",
+    "fetchedAt": "2025-09-01T16:39:32.531Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112560"
+  },
+  {
+    "id": "01112559",
+    "dateTh": "1 พฤศจิกายน 2559",
+    "last2": "86",
+    "endpoint": "https://news.sanook.com/lotto/check/01112559",
+    "fetchedAt": "2025-09-01T16:39:41.537Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112559"
+  },
+  {
+    "id": "01112558",
+    "dateTh": "1 พฤศจิกายน 2558",
+    "last2": "45",
+    "endpoint": "https://news.sanook.com/lotto/check/01112558",
+    "fetchedAt": "2025-09-01T16:39:50.266Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112558"
+  },
+  {
+    "id": "01112557",
+    "dateTh": "1 พฤศจิกายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01112557",
+    "fetchedAt": "2025-09-01T16:39:59.039Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112557"
+  },
+  {
+    "id": "01112556",
+    "dateTh": "1 พฤศจิกายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01112556",
+    "fetchedAt": "2025-09-01T16:40:08.337Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01112556"
+  },
+  {
+    "id": "01102567",
+    "dateTh": "1 ตุลาคม 2567",
+    "last2": "59",
+    "endpoint": "https://news.sanook.com/lotto/check/01102567",
+    "fetchedAt": "2025-09-01T16:38:40.188Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102567"
+  },
+  {
+    "id": "01102566",
+    "dateTh": "1 ตุลาคม 2566",
+    "last2": "66",
+    "endpoint": "https://news.sanook.com/lotto/check/01102566",
+    "fetchedAt": "2025-09-01T16:38:45.628Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102566"
+  },
+  {
+    "id": "01102565",
+    "dateTh": "1 ตุลาคม 2565",
+    "last2": "50",
+    "endpoint": "https://news.sanook.com/lotto/check/01102565",
+    "fetchedAt": "2025-09-01T16:38:52.679Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102565"
+  },
+  {
+    "id": "01102564",
+    "dateTh": "1 ตุลาคม 2564",
+    "last2": "83",
+    "endpoint": "https://news.sanook.com/lotto/check/01102564",
+    "fetchedAt": "2025-09-01T16:38:59.738Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102564"
+  },
+  {
+    "id": "01102563",
+    "dateTh": "1 ตุลาคม 2563",
+    "last2": "59",
+    "endpoint": "https://news.sanook.com/lotto/check/01102563",
+    "fetchedAt": "2025-09-01T16:39:07.753Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102563"
+  },
+  {
+    "id": "01102562",
+    "dateTh": "1 ตุลาคม 2562",
+    "last2": "59",
+    "endpoint": "https://news.sanook.com/lotto/check/01102562",
+    "fetchedAt": "2025-09-01T16:39:15.685Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102562"
+  },
+  {
+    "id": "01102561",
+    "dateTh": "1 ตุลาคม 2561",
+    "last2": "99",
+    "endpoint": "https://news.sanook.com/lotto/check/01102561",
+    "fetchedAt": "2025-09-01T16:39:24.638Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102561"
+  },
+  {
+    "id": "01102560",
+    "dateTh": "1 ตุลาคม 2560",
+    "last2": "52",
+    "endpoint": "https://news.sanook.com/lotto/check/01102560",
+    "fetchedAt": "2025-09-01T16:39:33.296Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102560"
+  },
+  {
+    "id": "01102559",
+    "dateTh": "1 ตุลาคม 2559",
+    "last2": "33",
+    "endpoint": "https://news.sanook.com/lotto/check/01102559",
+    "fetchedAt": "2025-09-01T16:39:42.226Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102559"
+  },
+  {
+    "id": "01102558",
+    "dateTh": "1 ตุลาคม 2558",
+    "last2": "07",
+    "endpoint": "https://news.sanook.com/lotto/check/01102558",
+    "fetchedAt": "2025-09-01T16:39:50.956Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102558"
+  },
+  {
+    "id": "01102557",
+    "dateTh": "1 ตุลาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01102557",
+    "fetchedAt": "2025-09-01T16:39:59.753Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102557"
+  },
+  {
+    "id": "01102556",
+    "dateTh": "1 ตุลาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01102556",
+    "fetchedAt": "2025-09-01T16:40:09.103Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01102556"
+  },
+  {
+    "id": "01092568",
+    "dateTh": "1 กันยายน 2568",
+    "last2": "31",
+    "endpoint": "https://news.sanook.com/lotto/check/01092568",
+    "fetchedAt": "2025-09-01T16:49:26.464Z",
+    "source": "https://lotto.api.rayriffy.com/latest"
+  },
+  {
+    "id": "01092567",
+    "dateTh": "1 กันยายน 2567",
+    "last2": "94",
+    "endpoint": "https://news.sanook.com/lotto/check/01092567",
+    "fetchedAt": "2025-09-01T16:38:40.583Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092567"
+  },
+  {
+    "id": "01092566",
+    "dateTh": "1 กันยายน 2566",
+    "last2": "91",
+    "endpoint": "https://news.sanook.com/lotto/check/01092566",
+    "fetchedAt": "2025-09-01T16:38:46.280Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092566"
+  },
+  {
+    "id": "01092565",
+    "dateTh": "1 กันยายน 2565",
+    "last2": "83",
+    "endpoint": "https://news.sanook.com/lotto/check/01092565",
+    "fetchedAt": "2025-09-01T16:38:53.245Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092565"
+  },
+  {
+    "id": "01092564",
+    "dateTh": "1 กันยายน 2564",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/01092564",
+    "fetchedAt": "2025-09-01T16:39:00.277Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092564"
+  },
+  {
+    "id": "01092563",
+    "dateTh": "1 กันยายน 2563",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/01092563",
+    "fetchedAt": "2025-09-01T16:39:08.476Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092563"
+  },
+  {
+    "id": "01092562",
+    "dateTh": "1 กันยายน 2562",
+    "last2": "20",
+    "endpoint": "https://news.sanook.com/lotto/check/01092562",
+    "fetchedAt": "2025-09-01T16:39:16.922Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092562"
+  },
+  {
+    "id": "01092561",
+    "dateTh": "1 กันยายน 2561",
+    "last2": "26",
+    "endpoint": "https://news.sanook.com/lotto/check/01092561",
+    "fetchedAt": "2025-09-01T16:39:25.266Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092561"
+  },
+  {
+    "id": "01092560",
+    "dateTh": "1 กันยายน 2560",
+    "last2": "65",
+    "endpoint": "https://news.sanook.com/lotto/check/01092560",
+    "fetchedAt": "2025-09-01T16:39:34.057Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092560"
+  },
+  {
+    "id": "01092559",
+    "dateTh": "1 กันยายน 2559",
+    "last2": "62",
+    "endpoint": "https://news.sanook.com/lotto/check/01092559",
+    "fetchedAt": "2025-09-01T16:39:42.895Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092559"
+  },
+  {
+    "id": "01092558",
+    "dateTh": "1 กันยายน 2558",
+    "last2": "89",
+    "endpoint": "https://news.sanook.com/lotto/check/01092558",
+    "fetchedAt": "2025-09-01T16:39:51.594Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092558"
+  },
+  {
+    "id": "01092557",
+    "dateTh": "1 กันยายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01092557",
+    "fetchedAt": "2025-09-01T16:40:00.871Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092557"
+  },
+  {
+    "id": "01092556",
+    "dateTh": "1 กันยายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01092556",
+    "fetchedAt": "2025-09-01T16:40:09.821Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01092556"
+  },
+  {
+    "id": "01082568",
+    "dateTh": "1 สิงหาคม 2568",
+    "last2": "50",
+    "endpoint": "https://news.sanook.com/lotto/check/01082568",
+    "fetchedAt": "2025-09-01T16:38:33.991Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082568"
+  },
+  {
+    "id": "01082567",
+    "dateTh": "1 สิงหาคม 2567",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/01082567",
+    "fetchedAt": "2025-09-01T16:38:41.043Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082567"
+  },
+  {
+    "id": "01082565",
+    "dateTh": "1 สิงหาคม 2565",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/01082565",
+    "fetchedAt": "2025-09-01T16:38:53.821Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082565"
+  },
+  {
+    "id": "01082564",
+    "dateTh": "1 สิงหาคม 2564",
+    "last2": "69",
+    "endpoint": "https://news.sanook.com/lotto/check/01082564",
+    "fetchedAt": "2025-09-01T16:39:00.843Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082564"
+  },
+  {
+    "id": "01082563",
+    "dateTh": "1 สิงหาคม 2563",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/01082563",
+    "fetchedAt": "2025-09-01T16:39:09.520Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082563"
+  },
+  {
+    "id": "01082562",
+    "dateTh": "1 สิงหาคม 2562",
+    "last2": "58",
+    "endpoint": "https://news.sanook.com/lotto/check/01082562",
+    "fetchedAt": "2025-09-01T16:39:17.620Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082562"
+  },
+  {
+    "id": "01082561",
+    "dateTh": "1 สิงหาคม 2561",
+    "last2": "78",
+    "endpoint": "https://news.sanook.com/lotto/check/01082561",
+    "fetchedAt": "2025-09-01T16:39:25.906Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082561"
+  },
+  {
+    "id": "01082560",
+    "dateTh": "1 สิงหาคม 2560",
+    "last2": "36",
+    "endpoint": "https://news.sanook.com/lotto/check/01082560",
+    "fetchedAt": "2025-09-01T16:39:34.787Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082560"
+  },
+  {
+    "id": "01082559",
+    "dateTh": "1 สิงหาคม 2559",
+    "last2": "57",
+    "endpoint": "https://news.sanook.com/lotto/check/01082559",
+    "fetchedAt": "2025-09-01T16:39:43.628Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082559"
+  },
+  {
+    "id": "01082558",
+    "dateTh": "1 สิงหาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01082558",
+    "fetchedAt": "2025-09-01T16:39:52.279Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082558"
+  },
+  {
+    "id": "01082557",
+    "dateTh": "1 สิงหาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01082557",
+    "fetchedAt": "2025-09-01T16:40:01.567Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082557"
+  },
+  {
+    "id": "01082556",
+    "dateTh": "1 สิงหาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01082556",
+    "fetchedAt": "2025-09-01T16:40:10.537Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01082556"
+  },
+  {
+    "id": "01072568",
+    "dateTh": "1 กรกฎาคม 2568",
+    "last2": "91",
+    "endpoint": "https://news.sanook.com/lotto/check/01072568",
+    "fetchedAt": "2025-09-01T16:38:34.561Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072568"
+  },
+  {
+    "id": "01072567",
+    "dateTh": "1 กรกฎาคม 2567",
+    "last2": "89",
+    "endpoint": "https://news.sanook.com/lotto/check/01072567",
+    "fetchedAt": "2025-09-01T16:38:41.432Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072567"
+  },
+  {
+    "id": "01072566",
+    "dateTh": "1 กรกฎาคม 2566",
+    "last2": "16",
+    "endpoint": "https://news.sanook.com/lotto/check/01072566",
+    "fetchedAt": "2025-09-01T16:38:47.335Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072566"
+  },
+  {
+    "id": "01072565",
+    "dateTh": "1 กรกฎาคม 2565",
+    "last2": "61",
+    "endpoint": "https://news.sanook.com/lotto/check/01072565",
+    "fetchedAt": "2025-09-01T16:38:54.410Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072565"
+  },
+  {
+    "id": "01072564",
+    "dateTh": "1 กรกฎาคม 2564",
+    "last2": "29",
+    "endpoint": "https://news.sanook.com/lotto/check/01072564",
+    "fetchedAt": "2025-09-01T16:39:01.414Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072564"
+  },
+  {
+    "id": "01072563",
+    "dateTh": "1 กรกฎาคม 2563",
+    "last2": "83",
+    "endpoint": "https://news.sanook.com/lotto/check/01072563",
+    "fetchedAt": "2025-09-01T16:39:10.240Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072563"
+  },
+  {
+    "id": "01072562",
+    "dateTh": "1 กรกฎาคม 2562",
+    "last2": "86",
+    "endpoint": "https://news.sanook.com/lotto/check/01072562",
+    "fetchedAt": "2025-09-01T16:39:18.319Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072562"
+  },
+  {
+    "id": "01072561",
+    "dateTh": "1 กรกฎาคม 2561",
+    "last2": "83",
+    "endpoint": "https://news.sanook.com/lotto/check/01072561",
+    "fetchedAt": "2025-09-01T16:39:26.537Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072561"
+  },
+  {
+    "id": "01072560",
+    "dateTh": "1 กรกฎาคม 2560",
+    "last2": "26",
+    "endpoint": "https://news.sanook.com/lotto/check/01072560",
+    "fetchedAt": "2025-09-01T16:39:35.474Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072560"
+  },
+  {
+    "id": "01072559",
+    "dateTh": "1 กรกฎาคม 2559",
+    "last2": "53",
+    "endpoint": "https://news.sanook.com/lotto/check/01072559",
+    "fetchedAt": "2025-09-01T16:39:44.304Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072559"
+  },
+  {
+    "id": "01072558",
+    "dateTh": "1 กรกฎาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01072558",
+    "fetchedAt": "2025-09-01T16:39:53.429Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072558"
+  },
+  {
+    "id": "01072557",
+    "dateTh": "1 กรกฎาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01072557",
+    "fetchedAt": "2025-09-01T16:40:02.255Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072557"
+  },
+  {
+    "id": "01072556",
+    "dateTh": "1 กรกฎาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01072556",
+    "fetchedAt": "2025-09-01T16:40:11.225Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01072556"
+  },
+  {
+    "id": "01062568",
+    "dateTh": "1 มิถุนายน 2568",
+    "last2": "20",
+    "endpoint": "https://news.sanook.com/lotto/check/01062568",
+    "fetchedAt": "2025-09-01T16:38:35.113Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062568"
+  },
+  {
+    "id": "01062567",
+    "dateTh": "1 มิถุนายน 2567",
+    "last2": "42",
+    "endpoint": "https://news.sanook.com/lotto/check/01062567",
+    "fetchedAt": "2025-09-01T16:38:41.822Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062567"
+  },
+  {
+    "id": "01062566",
+    "dateTh": "1 มิถุนายน 2566",
+    "last2": "09",
+    "endpoint": "https://news.sanook.com/lotto/check/01062566",
+    "fetchedAt": "2025-09-01T16:38:47.808Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062566"
+  },
+  {
+    "id": "01062565",
+    "dateTh": "1 มิถุนายน 2565",
+    "last2": "02",
+    "endpoint": "https://news.sanook.com/lotto/check/01062565",
+    "fetchedAt": "2025-09-01T16:38:55.013Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062565"
+  },
+  {
+    "id": "01062564",
+    "dateTh": "1 มิถุนายน 2564",
+    "last2": "45",
+    "endpoint": "https://news.sanook.com/lotto/check/01062564",
+    "fetchedAt": "2025-09-01T16:39:02.298Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062564"
+  },
+  {
+    "id": "01062563",
+    "dateTh": "1 มิถุนายน 2563",
+    "last2": "24",
+    "endpoint": "https://news.sanook.com/lotto/check/01062563",
+    "fetchedAt": "2025-09-01T16:39:10.934Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062563"
+  },
+  {
+    "id": "01062562",
+    "dateTh": "1 มิถุนายน 2562",
+    "last2": "46",
+    "endpoint": "https://news.sanook.com/lotto/check/01062562",
+    "fetchedAt": "2025-09-01T16:39:18.991Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062562"
+  },
+  {
+    "id": "01062561",
+    "dateTh": "1 มิถุนายน 2561",
+    "last2": "95",
+    "endpoint": "https://news.sanook.com/lotto/check/01062561",
+    "fetchedAt": "2025-09-01T16:39:27.174Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062561"
+  },
+  {
+    "id": "01062560",
+    "dateTh": "1 มิถุนายน 2560",
+    "last2": "61",
+    "endpoint": "https://news.sanook.com/lotto/check/01062560",
+    "fetchedAt": "2025-09-01T16:39:36.182Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062560"
+  },
+  {
+    "id": "01062559",
+    "dateTh": "1 มิถุนายน 2559",
+    "last2": "14",
+    "endpoint": "https://news.sanook.com/lotto/check/01062559",
+    "fetchedAt": "2025-09-01T16:39:44.986Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062559"
+  },
+  {
+    "id": "01062557",
+    "dateTh": "1 มิถุนายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01062557",
+    "fetchedAt": "2025-09-01T16:40:02.951Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062557"
+  },
+  {
+    "id": "01062556",
+    "dateTh": "1 มิถุนายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01062556",
+    "fetchedAt": "2025-09-01T16:40:11.932Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01062556"
+  },
+  {
+    "id": "01042568",
+    "dateTh": "1 เมษายน 2568",
+    "last2": "36",
+    "endpoint": "https://news.sanook.com/lotto/check/01042568",
+    "fetchedAt": "2025-09-01T16:38:36.507Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042568"
+  },
+  {
+    "id": "01042567",
+    "dateTh": "1 เมษายน 2567",
+    "last2": "90",
+    "endpoint": "https://news.sanook.com/lotto/check/01042567",
+    "fetchedAt": "2025-09-01T16:38:42.686Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042567"
+  },
+  {
+    "id": "01042566",
+    "dateTh": "1 เมษายน 2566",
+    "last2": "99",
+    "endpoint": "https://news.sanook.com/lotto/check/01042566",
+    "fetchedAt": "2025-09-01T16:38:48.989Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042566"
+  },
+  {
+    "id": "01042565",
+    "dateTh": "1 เมษายน 2565",
+    "last2": "10",
+    "endpoint": "https://news.sanook.com/lotto/check/01042565",
+    "fetchedAt": "2025-09-01T16:38:56.345Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042565"
+  },
+  {
+    "id": "01042564",
+    "dateTh": "1 เมษายน 2564",
+    "last2": "05",
+    "endpoint": "https://news.sanook.com/lotto/check/01042564",
+    "fetchedAt": "2025-09-01T16:39:03.553Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042564"
+  },
+  {
+    "id": "01042563",
+    "dateTh": "1 เมษายน 2563",
+    "last2": "22",
+    "endpoint": "https://news.sanook.com/lotto/check/01042563",
+    "fetchedAt": "2025-09-01T16:39:11.607Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042563"
+  },
+  {
+    "id": "01042562",
+    "dateTh": "1 เมษายน 2562",
+    "last2": "52",
+    "endpoint": "https://news.sanook.com/lotto/check/01042562",
+    "fetchedAt": "2025-09-01T16:39:20.353Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042562"
+  },
+  {
+    "id": "01042561",
+    "dateTh": "1 เมษายน 2561",
+    "last2": "85",
+    "endpoint": "https://news.sanook.com/lotto/check/01042561",
+    "fetchedAt": "2025-09-01T16:39:28.414Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042561"
+  },
+  {
+    "id": "01042560",
+    "dateTh": "1 เมษายน 2560",
+    "last2": "80",
+    "endpoint": "https://news.sanook.com/lotto/check/01042560",
+    "fetchedAt": "2025-09-01T16:39:37.512Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042560"
+  },
+  {
+    "id": "01042559",
+    "dateTh": "1 เมษายน 2559",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/01042559",
+    "fetchedAt": "2025-09-01T16:39:46.771Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042559"
+  },
+  {
+    "id": "01042558",
+    "dateTh": "1 เมษายน 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01042558",
+    "fetchedAt": "2025-09-01T16:39:55.503Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042558"
+  },
+  {
+    "id": "01042557",
+    "dateTh": "1 เมษายน 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01042557",
+    "fetchedAt": "2025-09-01T16:40:04.372Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042557"
+  },
+  {
+    "id": "01042556",
+    "dateTh": "1 เมษายน 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01042556",
+    "fetchedAt": "2025-09-01T16:40:13.396Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01042556"
+  },
+  {
+    "id": "01032568",
+    "dateTh": "1 มีนาคม 2568",
+    "last2": "54",
+    "endpoint": "https://news.sanook.com/lotto/check/01032568",
+    "fetchedAt": "2025-09-01T16:38:37.055Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032568"
+  },
+  {
+    "id": "01032567",
+    "dateTh": "1 มีนาคม 2567",
+    "last2": "79",
+    "endpoint": "https://news.sanook.com/lotto/check/01032567",
+    "fetchedAt": "2025-09-01T16:38:43.074Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032567"
+  },
+  {
+    "id": "01032566",
+    "dateTh": "1 มีนาคม 2566",
+    "last2": "55",
+    "endpoint": "https://news.sanook.com/lotto/check/01032566",
+    "fetchedAt": "2025-09-01T16:38:49.541Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032566"
+  },
+  {
+    "id": "01032565",
+    "dateTh": "1 มีนาคม 2565",
+    "last2": "07",
+    "endpoint": "https://news.sanook.com/lotto/check/01032565",
+    "fetchedAt": "2025-09-01T16:38:56.967Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032565"
+  },
+  {
+    "id": "01032564",
+    "dateTh": "1 มีนาคม 2564",
+    "last2": "73",
+    "endpoint": "https://news.sanook.com/lotto/check/01032564",
+    "fetchedAt": "2025-09-01T16:39:04.229Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032564"
+  },
+  {
+    "id": "01032563",
+    "dateTh": "1 มีนาคม 2563",
+    "last2": "98",
+    "endpoint": "https://news.sanook.com/lotto/check/01032563",
+    "fetchedAt": "2025-09-01T16:39:12.268Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032563"
+  },
+  {
+    "id": "01032562",
+    "dateTh": "1 มีนาคม 2562",
+    "last2": "65",
+    "endpoint": "https://news.sanook.com/lotto/check/01032562",
+    "fetchedAt": "2025-09-01T16:39:21.030Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032562"
+  },
+  {
+    "id": "01032560",
+    "dateTh": "1 มีนาคม 2560",
+    "last2": "78",
+    "endpoint": "https://news.sanook.com/lotto/check/01032560",
+    "fetchedAt": "2025-09-01T16:39:38.658Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032560"
+  },
+  {
+    "id": "01032559",
+    "dateTh": "1 มีนาคม 2559",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/01032559",
+    "fetchedAt": "2025-09-01T16:39:47.436Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032559"
+  },
+  {
+    "id": "01032558",
+    "dateTh": "1 มีนาคม 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01032558",
+    "fetchedAt": "2025-09-01T16:39:56.175Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032558"
+  },
+  {
+    "id": "01032557",
+    "dateTh": "1 มีนาคม 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01032557",
+    "fetchedAt": "2025-09-01T16:40:05.045Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032557"
+  },
+  {
+    "id": "01032556",
+    "dateTh": "1 มีนาคม 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01032556",
+    "fetchedAt": "2025-09-01T16:40:14.163Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01032556"
+  },
+  {
+    "id": "01022568",
+    "dateTh": "1 กุมภาพันธ์ 2568",
+    "last2": "51",
+    "endpoint": "https://news.sanook.com/lotto/check/01022568",
+    "fetchedAt": "2025-09-01T16:38:37.608Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022568"
+  },
+  {
+    "id": "01022567",
+    "dateTh": "1 กุมภาพันธ์ 2567",
+    "last2": "09",
+    "endpoint": "https://news.sanook.com/lotto/check/01022567",
+    "fetchedAt": "2025-09-01T16:38:43.461Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022567"
+  },
+  {
+    "id": "01022566",
+    "dateTh": "1 กุมภาพันธ์ 2566",
+    "last2": "92",
+    "endpoint": "https://news.sanook.com/lotto/check/01022566",
+    "fetchedAt": "2025-09-01T16:38:50.409Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022566"
+  },
+  {
+    "id": "01022565",
+    "dateTh": "1 กุมภาพันธ์ 2565",
+    "last2": "30",
+    "endpoint": "https://news.sanook.com/lotto/check/01022565",
+    "fetchedAt": "2025-09-01T16:38:57.432Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022565"
+  },
+  {
+    "id": "01022564",
+    "dateTh": "1 กุมภาพันธ์ 2564",
+    "last2": "97",
+    "endpoint": "https://news.sanook.com/lotto/check/01022564",
+    "fetchedAt": "2025-09-01T16:39:05.066Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022564"
+  },
+  {
+    "id": "01022563",
+    "dateTh": "1 กุมภาพันธ์ 2563",
+    "last2": "06",
+    "endpoint": "https://news.sanook.com/lotto/check/01022563",
+    "fetchedAt": "2025-09-01T16:39:12.929Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022563"
+  },
+  {
+    "id": "01022562",
+    "dateTh": "1 กุมภาพันธ์ 2562",
+    "last2": "04",
+    "endpoint": "https://news.sanook.com/lotto/check/01022562",
+    "fetchedAt": "2025-09-01T16:39:21.650Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022562"
+  },
+  {
+    "id": "01022561",
+    "dateTh": "1 กุมภาพันธ์ 2561",
+    "last2": "31",
+    "endpoint": "https://news.sanook.com/lotto/check/01022561",
+    "fetchedAt": "2025-09-01T16:39:29.777Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022561"
+  },
+  {
+    "id": "01022560",
+    "dateTh": "1 กุมภาพันธ์ 2560",
+    "last2": "42",
+    "endpoint": "https://news.sanook.com/lotto/check/01022560",
+    "fetchedAt": "2025-09-01T16:39:39.336Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022560"
+  },
+  {
+    "id": "01022559",
+    "dateTh": "1 กุมภาพันธ์ 2559",
+    "last2": "09",
+    "endpoint": "https://news.sanook.com/lotto/check/01022559",
+    "fetchedAt": "2025-09-01T16:39:48.131Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022559"
+  },
+  {
+    "id": "01022558",
+    "dateTh": "1 กุมภาพันธ์ 2558",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01022558",
+    "fetchedAt": "2025-09-01T16:39:56.838Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022558"
+  },
+  {
+    "id": "01022557",
+    "dateTh": "1 กุมภาพันธ์ 2557",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01022557",
+    "fetchedAt": "2025-09-01T16:40:05.793Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022557"
+  },
+  {
+    "id": "01022556",
+    "dateTh": "1 กุมภาพันธ์ 2556",
+    "last2": null,
+    "endpoint": "https://news.sanook.com/lotto/check/01022556",
+    "fetchedAt": "2025-09-01T16:40:14.853Z",
+    "source": "https://lotto.api.rayriffy.com/lotto/01022556"
+  }
+]
