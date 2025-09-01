@@ -81,16 +81,18 @@ function authOK(req) {
   return token && process.env.FETCH_KEY && token === process.env.FETCH_KEY;
 }
 
-function runNodeScript(args, cb) {
-  execFile(process.execPath, args, { env: process.env }, (err, stdout, stderr) => {
+function runNodeScript(scriptPath, args, cb) {
+  execFile(process.execPath, [scriptPath, ...args], { env: process.env }, (err, stdout, stderr) => {
     cb(err, (stdout || "") + (stderr || ""));
   });
 }
 
 // ดึงงวดล่าสุด
+// ใช้ __dirname ประกอบพาธสคริปต์
 app.post("/api/admin/fetch", (req, res) => {
   if (!authOK(req)) return res.status(401).json({ ok: false, error: "unauthorized" });
-  runNodeScript(["fetch-lotto.js", "--latest"], (err, out) => {
+  const script = path.join(__dirname, "fetch-lotto.js");
+  runNodeScript(script, ["--latest"], (err, out) => {
     if (err) return res.status(500).json({ ok: false, error: err.message, out });
     res.json({ ok: true, out });
   });
@@ -99,7 +101,8 @@ app.post("/api/admin/fetch", (req, res) => {
 // (ออปชัน) backfill ครั้งแรก
 app.post("/api/admin/backfill", (req, res) => {
   if (!authOK(req)) return res.status(401).json({ ok: false, error: "unauthorized" });
-  runNodeScript(["fetch-lotto.js", "--backfill=all"], (err, out) => {
+  const script = path.join(__dirname, "fetch-lotto.js");
+  runNodeScript(script, ["--backfill=all"], (err, out) => {
     if (err) return res.status(500).json({ ok: false, error: err.message, out });
     res.json({ ok: true, out });
   });

@@ -7,7 +7,12 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+
+// ✅ สร้าง __filename/__dirname สำหรับ ESM
 const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// ✅ ให้รองรับดิสก์ถาวรบน Render ผ่าน ENV
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const HISTORY_PATH = path.join(DATA_DIR, "history.json");
 

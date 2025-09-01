@@ -11,10 +11,10 @@ import { fileURLToPath } from "url";
 
 
 
+const API_BASE = "https://lotto.api.rayriffy.com";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const API_BASE = "https://lotto.api.rayriffy.com";
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const HISTORY_PATH = path.join(DATA_DIR, "history.json");
 
