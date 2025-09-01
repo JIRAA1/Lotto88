@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lotto888</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'thai': ['Sarabun', 'ui-sans-serif', 'system-ui', '-apple-system'],
+          },
+          animation: {
+            'gradient': 'gradient 8s ease infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-glow': 'pulse-glow 2s ease-in-out infinite alternate',
+          },
+          keyframes: {
+            gradient: {
+              '0%, 100%': {
+                'background-size': '200% 200%',
+                'background-position': 'left center'
+              },
+              '50%': {
+                'background-size': '200% 200%',
+                'background-position': 'right center'
+              }
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            'pulse-glow': {
+              '0%': { boxShadow: '0 0 20px rgba(14, 165, 233, 0.5)' },
+              '100%': { boxShadow: '0 0 30px rgba(139, 92, 246, 0.8)' },
+            }
+          }
+        }
+      }
+    }
+    
+    // Dark mode support
+    if (localStorage.getItem('theme') === 'dark'
+      || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  </script>
+
+  <!-- Google Fonts - Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%230ea5e9'/%3E%3Cstop offset='0.5' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='64' cy='64' r='58' fill='url(%23g)'/%3E%3Ctext x='64' y='78' text-anchor='middle' font-size='48' fill='white' font-family='Sarabun, ui-sans-serif'%3E๒%3C/text%3E%3C/svg%3E">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Noto+Sans+Thai:wght@600&display=swap');
+    body {
+      font-family: "Noto Sans Thai", sans-serif;
+    }
+    
+    /* Enhanced glass card with better backdrop blur */
+    .glass {
+      @apply rounded-3xl border border-white/20 backdrop-blur-xl shadow-xl;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+    }
+    .dark .glass {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+    
+    /* Enhanced badges with gradient backgrounds */
+    .badge {
+      @apply inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-medium shadow-sm transition-all duration-200;
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(139, 92, 246, 0.1));
+      border: 1px solid rgba(14, 165, 233, 0.2);
+      color: rgb(14, 165, 233);
+    }
+    .dark .badge {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(139, 92, 246, 0.2));
+      border-color: rgba(14, 165, 233, 0.3);
+      color: rgb(99, 179, 237);
+    }
+    
+    /* Enhanced buttons with hover effects */
+    .btn {
+      @apply inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3 font-medium shadow-lg transition-all duration-200 transform hover:scale-105 active:scale-95;
+      background: linear-gradient(135deg, rgb(14, 165, 233), rgb(99, 102, 241));
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn:hover {
+      background: linear-gradient(135deg, rgb(2, 132, 199), rgb(79, 70, 229));
+      box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.3), 0 10px 10px -5px rgba(14, 165, 233, 0.1);
+    }
+    
+    .btn-green {
+      background: linear-gradient(135deg, rgb(16, 185, 129), rgb(34, 197, 94));
+    }
+    .btn-green:hover {
+      background: linear-gradient(135deg, rgb(5, 150, 105), rgb(22, 163, 74));
+      box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.3), 0 10px 10px -5px rgba(16, 185, 129, 0.1);
+    }
+    
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: rgb(71, 85, 105);
+    }
+    .dark .btn-secondary {
+      background: rgba(255, 255, 255, 0.1);
+      color: rgb(203, 213, 225);
+    }
+    
+    /* Enhanced input fields */
+    .input {
+      @apply w-full rounded-xl border bg-white/70 px-4 py-3 text-sm transition-all duration-200
+             focus:outline-none focus:ring-2 focus:scale-105;
+      border-color: rgba(203, 213, 225, 0.5);
+      backdrop-filter: blur(10px);
+    }
+    .input:focus {
+      background: rgba(255, 255, 255, 0.9);
+      border-color: rgb(14, 165, 233);
+      box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+    }
+    .dark .input {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+      color: rgb(226, 232, 240);
+    }
+    .dark .input:focus {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgb(99, 179, 237);
+    }
+    
+    .label { 
+      @apply text-sm font-medium text-slate-700 dark:text-slate-300 mb-2 block;
+    }
+    .h1 { 
+      @apply text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent leading-tight;
+    }
+    .muted { 
+      @apply text-slate-600 dark:text-slate-400; 
+    }
+    .card-title { 
+      @apply text-xl font-semibold text-slate-800 dark:text-slate-100 mb-4 flex items-center gap-2; 
+    }
+    
+    /* Animated background */
+    .bg-animated {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.1);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(135deg, rgb(14, 165, 233), rgb(139, 92, 246));
+      border-radius: 10px;
+    }
+    
+    /* Tooltip */
+    .tooltip {
+      @apply absolute z-50 px-3 py-2 text-sm text-white bg-gray-900 rounded-lg shadow-lg dark:bg-gray-700;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    .tooltip.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /* Loading spinner */
+    .spinner {
+      border: 3px solid rgba(14, 165, 233, 0.3);
+      border-radius: 50%;
+      border-top: 3px solid rgb(14, 165, 233);
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Card hover effects */
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Table enhancements */
+    .table-row {
+      @apply hover:bg-white/20 dark:hover:bg-white/10 transition-colors duration-150;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-purple-900 text-slate-900 dark:text-slate-100 selection:bg-sky-300/40 selection:text-sky-900 min-h-screen">
+
+  <!-- Animated background overlay -->
+  <div class="fixed inset-0 bg-gradient-to-br from-blue-400/5 via-purple-400/5 to-pink-400/5 dark:from-blue-600/10 dark:via-purple-600/10 dark:to-pink-600/10 pointer-events-none"></div>
+
+  <!-- Navigation -->
+  <nav class="relative max-w-7xl mx-auto px-4 pt-6 mb-8">
+    <div class="glass p-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <div class="h-12 w-12 rounded-2xl bg-gradient-to-br from-sky-500 via-blue-600 to-violet-600 grid place-items-center text-white font-bold shadow-lg animate-float">
+            ๒
+          </div>
+          <div>
+            <div class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Lotto 2-Digit Analyzer
+            </div>
+            <div class="text-sm muted flex items-center gap-2">
+              <i data-lucide="brain" class="w-4 h-4"></i>
+              Dirichlet • Seasonality • Markov Chain
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-3">
+          <span id="historyInfo" class="badge">
+            <i data-lucide="database" class="w-4 h-4"></i>
+            <span class="hidden sm:inline">กำลังโหลดข้อมูล...</span>
+          </span>
+          <button id="themeToggle" class="btn-secondary">
+            <i data-lucide="moon" class="w-4 h-4 dark:hidden"></i>
+            <i data-lucide="sun" class="w-4 h-4 hidden dark:inline"></i>
+            <span class="hidden sm:inline">เปลี่ยนธีม</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative max-w-7xl mx-auto px-4 mb-8">
+    <div class="glass p-8 md:p-10 card-hover">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+        <div class="flex-1">
+          <h1 class="h1 mb-4">
+            วิเคราะห์เลขท้าย 2 ตัว
+            <span class="block text-2xl md:text-3xl mt-2 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
+              ด้วยอัลกอริทึม AI ที่ทันสมัย ⚡️
+            </span>
+          </h1>
+          <p class="text-lg muted leading-relaxed max-w-2xl">
+            <i data-lucide="sparkles" class="w-5 h-5 inline mr-2 text-yellow-500"></i>
+            วิเคราะห์แบบครบครัน: ปรับพารามิเตอร์ → วิเคราะห์ทันที → แสดงกราฟ → ทดสอบย้อนหลัง
+            <br class="hidden md:block">
+            <i data-lucide="shield-check" class="w-5 h-5 inline mr-2 mt-2 text-green-500"></i>
+            <span class="text-base">ข้อมูลอัพเดทจาก <code class="bg-slate-200 dark:bg-slate-700 px-2 py-1 rounded text-sm">data/history.json</code></span>
+          </p>
+        </div>
+        
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <a href="https://github.com/" target="_blank" class="btn-secondary group">
+            <i data-lucide="github" class="w-5 h-5 group-hover:rotate-12 transition-transform"></i>
+            ดูโค้ด
+          </a>
+          <button id="btnAnalyze" class="btn animate-pulse-glow">
+            <i data-lucide="zap" class="w-5 h-5"></i>
+            เริ่มวิเคราะห์
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="relative max-w-7xl mx-auto px-4 pb-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+    <!-- Control Panel -->
+    <section class="glass p-6 lg:col-span-1 card-hover">
+      <h2 class="card-title">
+        <i data-lucide="settings" class="w-6 h-6 text-blue-600"></i>
+        ตั้งค่าการวิเคราะห์
+      </h2>
+      
+      <div class="space-y-6">
+        <!-- Target Day Selection -->
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-4 rounded-xl">
+          <label class="block">
+            <div class="label flex items-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4"></i>
+              วันที่เป้าหมาย (1/16)
+            </div>
+            <select id="targetDay" class="input">
+              <option value="1">วันที่ 1</option>
+              <option value="16" selected>วันที่ 16</option>
+            </select>
+          </label>
+        </div>
+
+        <!-- Weight Settings -->
+        <div class="bg-gradient-to-r from-emerald-50 to-blue-50 dark:from-emerald-900/20 dark:to-blue-900/20 p-4 rounded-xl">
+          <div class="label flex items-center gap-2 mb-3">
+            <i data-lucide="sliders" class="w-4 h-4"></i>
+            น้ำหนักแต่ละปัจจัย [base, day, month, markov]
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div>
+              <label class="text-xs text-slate-600 dark:text-slate-400">Base</label>
+              <input id="w0" class="input" type="number" step="0.05" value="0.5" title="น้ำหนักพื้นฐาน">
+            </div>
+            <div>
+              <label class="text-xs text-slate-600 dark:text-slate-400">Day</label>
+              <input id="w1" class="input" type="number" step="0.05" value="1" title="น้ำหนักตามวัน">
+            </div>
+            <div>
+              <label class="text-xs text-slate-600 dark:text-slate-400">Month</label>
+              <input id="w2" class="input" type="number" step="0.05" value="0.5" title="น้ำหนักตามเดือน">
+            </div>
+            <div>
+              <label class="text-xs text-slate-600 dark:text-slate-400">Markov</label>
+              <input id="w3" class="input" type="number" step="0.05" value="1" title="น้ำหนัก Markov Chain">
+            </div>
+          </div>
+        </div>
+
+        <!-- Algorithm Parameters -->
+        <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-4 rounded-xl">
+          <div class="label flex items-center gap-2 mb-3">
+            <i data-lucide="cpu" class="w-4 h-4"></i>
+            พารามิเตอร์อัลกอริทึม
+          </div>
+          <div class="grid grid-cols-3 gap-3">
+            <label class="block">
+              <div class="text-xs text-slate-600 dark:text-slate-400 mb-1">Alpha (α)</div>
+              <input id="alpha" class="input" type="number" step="0.1" value="0.5" title="พารามิเตอร์ Dirichlet">
+            </label>
+            <label class="block">
+              <div class="text-xs text-slate-600 dark:text-slate-400 mb-1">K</div>
+              <input id="k" class="input" type="number" step="1" value="50" title="จำนวนข้อมูลย้อนหลัง">
+            </label>
+            <label class="block">
+              <div class="text-xs text-slate-600 dark:text-slate-400 mb-1">Epsilon (ε)</div>
+              <input id="epsilon" class="input" type="number" step="0.1" value="1" title="ค่า smoothing">
+            </label>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-end gap-3">
+          <label class="block flex-1">
+            <div class="label">จำนวนเลขที่แสดง</div>
+            <input id="topK" class="input" type="number" value="20" min="5" max="50">
+          </label>
+          <button id="btnBacktest" class="btn-green whitespace-nowrap">
+            <i data-lucide="activity" class="w-4 h-4"></i>
+            ทดสอบย้อนหลัง
+          </button>
+        </div>
+
+        <!-- Warning -->
+        <div class="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl p-4">
+          <div class="flex items-start gap-3">
+            <i data-lucide="alert-triangle" class="w-5 h-5 text-amber-600 dark:text-amber-400 mt-0.5"></i>
+            <div class="text-sm text-amber-800 dark:text-amber-200">
+              <strong>คำเตือนสำคัญ:</strong> สลากกินแบ่งมีความเสี่ยงสูง และมีค่า Expected Value ติดลบ 
+              เครื่องมือนี้ใช้เพื่อการเรียนรู้และวิจัยเท่านั้น
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Panel -->
+    <section class="lg:col-span-2 grid grid-cols-1 gap-6">
+      
+      <!-- Summary Results -->
+      <div class="glass p-6 card-hover">
+        <div class="flex flex-wrap items-center gap-4 mb-6">
+          <div class="card-title m-0">
+            <i data-lucide="bar-chart-3" class="w-6 h-6 text-emerald-600"></i>
+            ผลการวิเคราะห์ล่าสุด
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <div class="badge">
+              <i data-lucide="database" class="w-4 h-4"></i>
+              <span>ข้อมูล: <strong id="sumN">-</strong> งวด</span>
+            </div>
+            <div class="badge">
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              <span>เลขก่อนหน้า: <strong id="sumPrev">-</strong></span>
+            </div>
+            <div class="badge">
+              <i data-lucide="calendar-days" class="w-4 h-4"></i>
+              <span>เดือน: <strong id="sumMonth">-</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+          <!-- Top Picks Table -->
+          <div class="bg-gradient-to-br from-white/50 to-blue-50/50 dark:from-white/5 dark:to-blue-900/10 rounded-2xl p-4">
+            <h3 class="text-lg font-semibold text-slate-700 dark:text-slate-300 mb-4 flex items-center gap-2">
+              <i data-lucide="trophy" class="w-5 h-5 text-yellow-600"></i>
+              เลขแนะนำ (Top Picks)
+            </h3>
+            <div class="overflow-hidden rounded-xl border border-white/30 dark:border-white/10 shadow-sm">
+              <table class="w-full text-sm">
+                <thead class="bg-gradient-to-r from-blue-500/10 to-purple-500/10">
+                  <tr class="text-left text-slate-600 dark:text-slate-300">
+                    <th class="py-3 px-4 font-semibold">อันดับ</th>
+                    <th class="py-3 px-4 font-semibold">เลข</th>
+                    <th class="py-3 px-4 text-right font-semibold">ความน่าจะเป็น</th>
+                  </tr>
+                </thead>
+                <tbody id="topTable" class="divide-y divide-white/20 dark:divide-white/10">
+                  <!-- Filled by JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Chart -->
+          <div class="bg-gradient-to-br from-white/50 to-purple-50/50 dark:from-white/5 dark:to-purple-900/10 rounded-2xl p-4">
+            <h3 class="text-lg font-semibold text-slate-700 dark:text-slate-300 mb-4 flex items-center gap-2">
+              <i data-lucide="trending-up" class="w-5 h-5 text-purple-600"></i>
+              กราฟความน่าจะเป็น
+            </h3>
+            <div class="bg-white/60 dark:bg-white/5 rounded-xl p-4 shadow-inner">
+              <canvas id="chartTop" height="220"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backtest Results -->
+      <div class="glass p-6 card-hover">
+        <div class="flex items-center justify-between gap-4 mb-6">
+          <h3 class="card-title m-0">
+            <i data-lucide="timeline" class="w-6 h-6 text-green-600"></i>
+            ผลการทดสอบย้อนหลัง (Backtest)
+          </h3>
+          <div id="btCompare" class="text-sm muted bg-slate-100 dark:bg-slate-800 px-3 py-2 rounded-lg">
+            <i data-lucide="play-circle" class="w-4 h-4 inline mr-1"></i>
+            กดปุ่ม "ทดสอบย้อนหลัง" เพื่อเปรียบเทียบประสิทธิภาพ
+          </div>
+        </div>
+        
+        <div id="btMetrics" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Metrics will be filled by JavaScript -->
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="relative max-w-7xl mx-auto px-4 pb-12">
+    <div class="glass px-6 py-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm muted">
+        <div class="flex items-center gap-2">
+          <i data-lucide="code" class="w-4 h-4"></i>
+          © 2025 Lotto 2-Digit Analyzer • สร้างด้วย Tailwind CSS + Chart.js
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="text-xs">เพื่อการศึกษาและวิจัย</span>
+          <a class="underline decoration-dotted underline-offset-4 hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1" 
+             href="https://news.sanook.com/lotto/" target="_blank">
+            <i data-lucide="external-link" class="w-3 h-3"></i>
+            ที่มาข้อมูล
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-50 hidden">
+    <div class="flex items-center justify-center h-full">
+      <div class="glass p-6 text-center">
+        <div class="spinner mx-auto mb-4"></div>
+        <p class="text-lg font-medium">กำลังวิเคราะห์ข้อมูล...</p>
+        <p class="text-sm muted mt-1">กรุณารอสักครู่</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Enhanced theme toggle with smooth transitions
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      
+      const btn = document.getElementById('themeToggle');
+      const loadingOverlay = document.getElementById('loadingOverlay');
+      
+      // Theme toggle functionality
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        
+        // Re-create icons after theme change
+        setTimeout(() => lucide.createIcons(), 100);
+      });
+      
+      // Show loading when analyzing
+      document.getElementById('btnAnalyze').addEventListener('click', () => {
+        loadingOverlay.classList.remove('hidden');
+        setTimeout(() => {
+          loadingOverlay.classList.add('hidden');
+        }, 2000); // Simulate processing time
+      });
+      
+      // Add tooltip functionality
+      const addTooltips = () => {
+        document.querySelectorAll('[title]').forEach(element => {
+          element.addEventListener('mouseenter', (e) => {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tooltip show';
+            tooltip.textContent = e.target.getAttribute('title');
+            document.body.appendChild(tooltip);
+            
+            const rect = e.target.getBoundingClientRect();
+            tooltip.style.top = rect.top - tooltip.offsetHeight - 10 + 'px';
+            tooltip.style.left = rect.left + rect.width/2 - tooltip.offsetWidth/2 + 'px';
+          });
+          
+          element.addEventListener('mouseleave', () => {
+            document.querySelectorAll('.tooltip').forEach(t => t.remove());
+          });
+        });
+      };
+      
+      addTooltips();
+    });
+  </script>
+
+  <!-- Keep your original app.js for functionality -->
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "lotto-scraper",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "latest": "node fetch-lotto.js --latest",
+    "backfill": "node fetch-lotto.js --backfill=3",
+    "backfill:all": "node fetch-lotto.js --backfill=all",
+    "analyze": "node analyze-advanced.js --top=10 --target-day=16",
+    "backtest": "node analyze-advanced.js --backtest --bt-last=60 --bt-top=10",
+    "web": "node server-web.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
