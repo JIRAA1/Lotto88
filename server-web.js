@@ -99,10 +99,16 @@ app.post("/api/admin/fetch", (req, res) => {
 });
 
 // (ออปชัน) backfill ครั้งแรก
+// ... อยู่ไฟล์ server-web.js ใกล้ ๆ endpoint admin อื่น ๆ
+
 app.post("/api/admin/backfill", (req, res) => {
   if (!authOK(req)) return res.status(401).json({ ok: false, error: "unauthorized" });
-  const script = path.join(__dirname, "fetch-lotto.js");
-  runNodeScript(script, ["--backfill=all"], (err, out) => {
+
+  // รับจำนวนหน้าเป็น query (?pages=12) ; ถ้าไม่ส่ง ให้ดีฟอลต์ 12
+  const pages = parseInt(req.query.pages || "12", 10);
+  const n = Number.isFinite(pages) && pages > 0 ? pages : 12;
+
+  runNodeScript(["fetch-lotto.js", `--backfill=${n}`], (err, out) => {
     if (err) return res.status(500).json({ ok: false, error: err.message, out });
     res.json({ ok: true, out });
   });
